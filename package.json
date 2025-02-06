@@ -1,18 +1,18 @@
 {
-  "name": "42header",
-  "displayName": "42 Header",
-  "description": "42 header for VSCode : www.42.fr",
+  "name": "TYPSAheader",
+  "displayName": "TYPSA Header",
+  "description": "TYPSA header for VSCode : www.typsa.net",
   "version": "0.42.7",
-  "publisher": "kube",
-  "icon": "42.png",
+  "publisher": "smsanchez",
+  "icon": "Title.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kube/vscode-42header"
+    "url": "https://github.com/smsanchez1/Unknown-Interactive-header"
   },
   "bugs": {
-    "url": "https://github.com/kube/vscode-42header/issues"
+    "url": "https://github.com/smsanchez1/Unknown-Interactive-header/issues"
   },
-  "homepage": "https://github.com/kube/vscode-42header",
+  "homepage": "https://github.com/smsanchez1/Unknown-Interactive-header",
   "license": "MIT",
   "engines": {
     "vscode": "^1.6.0"
@@ -27,26 +27,26 @@
   "contributes": {
     "configuration": {
       "properties": {
-        "42header.username": {
+        "TYPSAheader.username": {
           "type": "string",
-          "description": "Username to use in 42 headers"
+          "description": "Username to use in TYPSA headers"
         },
-        "42header.email": {
+        "TYPSAheader.email": {
           "type": "string",
-          "description": "Email address to use in 42 headers"
+          "description": "Email address to use in TYPSA headers"
         }
       }
     },
     "commands": [
       {
-        "command": "42header.insertHeader",
-        "title": "Insert 42 header",
+        "command": "TYPSAheader.insertHeader",
+        "title": "Insert TYPSA header",
         "when": "editorTextFocus"
       }
     ],
     "keybindings": [
       {
-        "command": "42header.insertHeader",
+        "command": "TYPSAheader.insertHeader",
         "key": "ctrl+alt+h",
         "mac": "cmd+alt+h",
         "when": "editorTextFocus"
