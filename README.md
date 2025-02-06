@@ -56,7 +56,7 @@ To override these values, specify these properties in *User Settings* :
 
 ## Issues
 
-In case of a bug, or missing feature, please create a [Github Pull Request](https://github.com/kube/vscode-42header/pulls).
+In case of a bug, or missing feature, please create a [Github Pull Request](https://www.github.com/smsanchez1/Unknown-Interactive-header/pulls).
 
 ## License
 
